@@ -11,30 +11,28 @@
     <title>Oso Polar</title>
 </head>
 <body>
-    <header class="content bg-secondary">
+    <header class="content bg-secondary m-0">
 
-        <div class="row"> 
-                <div id="logo" class=" col col-1 pe-0 p-2 ps-5"> 
-                        <img src="Material/logo.png" class="rounded-circle pe-0" alt="logo">
-                </div>
-
-                <div id="titol" class="col col col-2"> 
-                    <h2 class="text-white text-center">Oso polar</h2>
+        <div class="row mx-0"> 
+                <div id="logo" class=" col col-1 pe-0 p-2 ps-5 "> 
+                    <a href="index.html"> 
+                      <img src="Material/logo.png" class="rounded pe-0" alt="logo">
+                    </a>    
                 </div>
 
                 
         </div>
    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-dark">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-white" href="#">Oso Polar</a>
+                  <a class="navbar-brand text-white" href="index.html">Oso Polar</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                       <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Inici</a>
+                        <a class="nav-link active text-white" aria-current="page" href="HTML/page1.html">Inici</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,15 +49,33 @@
                         </ul>
                       </li>
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2 text-dark" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-light text-white" type="submit">Buscar</button>
-                    </form>
+                    
                   </div>
                 </div>
               </nav>
     </header>
     <article>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Material/paisatgeartic1.jpg" class="d-block w-100" alt="foto d'un icberg" >
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Material/paisatgeartic2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Material/ososjugando.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
     </article>
