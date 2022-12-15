@@ -11,3 +11,8 @@ h2 {
 #logo img {
     height: 100%;
 }
+
+.carousel-inner .carousel-item img {
+    height: 70vh;
+    }
+    
